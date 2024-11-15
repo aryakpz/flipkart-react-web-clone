@@ -1,0 +1,669 @@
+[
+    {
+    "nav": 
+        {
+            "fliplogo": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png",
+            "explore": "Explore",
+            "plus": "Plus",
+            "plogo": "assets/images/plus.png",
+            "search": "assets/icons/searchsmall.svg",
+            "login": "Login",
+            "seller": "Become a Seller",
+            "more": "More ",
+            "down": "assets/icons/angle-down-solid.svg",
+            "cartimg": "assets/icons/cart.svg",
+            "cart": "Cart"
+        }
+    ,
+    "drop": [
+        {
+            "data": "Electronics",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "TVs & Appliances",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Men",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Women",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Baby & Kids",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Home & Furniture",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Sports, Books & More",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Flights",
+            "icon": "assets/icons/angle-down-solid.svg"
+        },
+        {
+            "data": "Offer Zone",
+            "icon": "assets/icons/angle-down-solid.svg"
+        }
+    ],
+    "left": 
+        {
+            "filter": "Filters",
+            "clear":"CLEAR ALL",
+            "category": "CATEGORIES",
+            "image": "assets/icons/leftarrowsmall.svg",
+            "access": "Mobiles & Accessories",
+            "mobile": "Mobiles",
+            "price": "PRICE",
+            "min": [
+                "Min",
+                10000,
+                15000,
+                20000,
+                30000
+            ],
+            "max": [
+                "₹30000+",
+                10000,
+                15000,
+                20000,
+                30000
+            ],
+            "brand": "BRAND",
+            "bimg": "assets/icons/blacksearch.svg",
+            "brandnames": [
+                "SAMSUNG",
+                "vivo",
+                "OPPO",
+                "redmi",
+                "POCO",
+                "iPhone",
+                "MOTOROLA"
+            ],
+            "class":"brandfilter",
+            "more": "175 MORE",
+            "toparrow": "assets/icons/angle-up-solid.svg",
+            "assure": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+        }
+    ,
+    "section": [
+        {
+            "name": "CUSTOMER RATING",
+            "common": "nothide",
+            "id": "rating",
+            "subid": "ratecheck",
+            "checkdatas": [
+                "4<img src=\"assets/icons/whitestar.svg\"> & above",
+                "3<img src=\"assets/icons/whitestar.svg\"> & above"
+            ],
+            "class":"ratefilter"
+        },
+        {
+            "name": "GST INVOICE AVAILABLE",
+            "id": "gst",
+            "common": "hide",
+            "subid": "gstcheck",
+            "checkdatas": [
+                " GST Invoice Available"
+            ],
+            "class":"gstfilter"
+        },
+        {
+            "name": "RAM",
+            "id": "rom",
+            "common": "nothide",
+            "subid": "ramcheck",
+            "checkdatas": [
+                "3 GB",
+                "4 GB",
+                "5 GB ",
+                "1 GB ",
+                "8 GB ",
+                "6 GB",
+                "2 GB"
+               
+            ],
+            "class":"ramfilter"
+        },
+        {
+            "name": "INITIAL STORAGE",
+            "id": "storage",
+            "common": "hide",
+            "subid": "storagecheck",
+            "checkdatas": [
+                " 256 GB & Above",
+                "128 - 255.9 GB",
+                "  64 - 127.9 GB",
+                "  32 - 63.9 GB",
+                "16 - 31.9 GB",
+                " 8 - 15.9 GB"
+            ],
+            "class":"storagefilter"
+        },
+        {
+            "name": "BATTERY CAPACITY",
+            "id": "battery",
+            "common": "hide",
+            "subid": "batterycheck",
+            "checkdatas": [
+                "1000 - 1999 mAh",
+                " 2000 - 2999 mAh",
+                "3000 - 3999 mAh",
+                "4000 - 4999 mAh",
+                "5000 - 5999 mAh",
+                " 5000 mAh Above",
+                " 6000 mAh & Above",
+                "A",
+                " B",
+                "E",
+                " G",
+                " Less than 1000 mAh",
+                " P"
+            ],
+            "class":"batterfilter"
+        },
+        {
+            "name": "SCREEN SIZE",
+            "id": "screen",
+            "common": "hide",
+            "subid": "screencheck",
+            "checkdatas": [
+                " 5.7 - 5.9 inch",
+                "   5.5 - 5.6 inch",
+                " 5.2 - 5.4 inch",
+                "5 - 5.1 inch",
+                " 4.5 - 4.9 inch",
+                "4 - 4.4 inch",
+                " 3.5 - 3.9 inch",
+                " 3 - 3.4 inch",
+                "Less than 3 inch",
+                "6.4 inch & Above",
+                " 6 - 6.3 inch",
+                " 6 inch above"
+            ],
+            "class":"screenfilter"
+        },
+        {
+            "name": "PRIMARY CAMARA",
+            "id": "camara",
+            "common": "hide",
+            "subid": "camaracheck",
+            "checkdatas": [
+                " 5 - 7.9 MP",
+                "  Below 5 MP",
+                " 8 - 11.9 MP",
+                "  12 - 12.9 MP",
+                "12 - 15.9 MP",
+                "13 - 15.9 MP",
+                " 16 - 20.9 MP",
+                " 21 - 31.9 MP",
+                " 21 MP Above",
+                " 32 - 47.9 MP",
+                "48 - 63.9 MP"
+            ],
+            "class":"camarafilter"
+        },
+        {
+            "name": "SECONDARY CAMARA",
+            "id": "scam",
+            "common": "hide",
+            "subid": "scamcheck",
+            "checkdatas": [
+                "12 - 12.9 MP",
+                " 12 - 15.9 MP",
+                " 13 - 15.9 MP",
+                "16 - 20.9 MP",
+                "21 MP Above",
+                "21 MP & Above",
+                " 5 - 7.9 MP",
+                " 8 - 11.9 MP",
+                "Below 5 MP"
+            ],
+            "class":"seccamfilter"
+        },
+        {
+            "name": "PROCESSOR BAND",
+            "id": "processor",
+            "common": "hide",
+            "subid": "processorcheck",
+            "checkdatas": [
+                " AMD",
+                "Apple",
+                " ARM",
+                " Exynos",
+                "Google",
+                " HiSilicon",
+                "  Huawei",
+                "Intel",
+                "Mediatek",
+                "  NVIDIA",
+                "Qualcomm",
+                "Snapdragon",
+                " Spreadtrum",
+                " Unisoc"
+            ],
+            "class":"processorfilter"
+        },
+        {
+            "name": "SPECCIALITY",
+            "id": "speciality",
+            "common": "hide",
+            "subid": "specialcheck",
+            "checkdatas": [
+                " Big Storage",
+                "Higher Performance",
+                "Long-Lasting Battery",
+                "Selfie Camera"
+            ],
+            "class":"specialityfilter"
+        }
+    ],
+    "right": [
+        {
+            "val": "Home",
+            "icon": "assets/icons/angle-right-solid.svg"
+        },
+        {
+            "val": "Mobiles & Accessories",
+            "icon": "assets/icons/angle-right-solid.svg"
+        },
+        {
+            "val": "Mobiles",
+            "icon": "assets/icons/angle-right-solid.svg"
+        }
+    ],
+    "content": "Showing 1 – 24 of 10,313 results for \"mobiles\"",
+    "sortsec": {
+        "name": "Sort By",
+        "id": "sort"
+    },
+    "link": [
+        {
+            "name": "Relevance",
+            "id": "relevence",
+            "class": "active"
+        },
+        {
+            "name": "Popularity",
+            "id": "popularity",
+            "class": "nonactive"
+        },
+        {
+            "name": "Price -- Low to High",
+            "id": "low",
+            "class": "nonactive"
+        },
+        {
+            "name": "Price -- High to Low",
+            "id": "high",
+            "class": "nonactive"
+        },
+        {
+            "name":"Newest First",
+            "id":"new",
+            "class":"nonactive"
+        }
+
+    ],
+    "phonesec": [
+        {
+            "id": "iphone",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+            "compare": "Add to Compare",
+            "name": "Apple iPhone 15 (Black, 128 GB)",
+            "heart": "assets/icons/heart.svg",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "45,052 Ratings & 2,414 Reviews",
+            "speciality": [
+                {
+                    "data": "128 GB ROM",
+                    "id": "rom"
+                },
+                {
+                    "data": "15.49 cm (6.1 inch) Super Retina XDR Display",
+                    "id": "display"
+                },
+                {
+                    "data": "48MP + 12MP | 12MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "A16 Bionic Chip, 6 Core Processor Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "65,499",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹79,600",
+            "off": "17% off",
+            "free": "Free delivery",
+            "save": "Daily Saver",
+            "exchange": "Upto ₹50,150 Off on Exchange"
+        },
+        {
+            "id": "iphone",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70",
+            "compare": "Add to Compare",
+            "name": "Apple iPhone 15 (Pink, 256 GB)",
+            "heart": "assets/icons/heart.svg",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "44,931 Ratings & 2,408 Reviews",
+            "speciality": [
+                {
+                    "data": "2 GB ",
+                    "id": "rom"
+                },
+                {
+                    "data": "15.49 cm (6.1 inch) Super Retina XDR Display",
+                    "id": "display"
+                },
+                {
+                    "data": "48MP + 12MP | 12MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "A16 Bionic Chip, 6 Core Processor Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "81,999",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹89,600",
+            "off": "8% off",
+            "free": "Free delivery",
+            "save": "Save extra with combo offers",
+            "exchange": "Upto ₹53,000 Off on Exchange"
+        },
+        {
+            "id": "iphone",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/4/d/-original-imaghx9qygjjg8hz.jpeg?q=70",
+            "compare": "Add to Compare",
+            "heart": "assets/icons/heart.svg",
+            "name": "Apple iPhone 14 Plus (BLue, 128 GB)",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "77,251 Ratings & 4,327 Reviews",
+            "speciality": [
+                {
+                    "data": "3 GB",
+                    "id": "rom"
+                },
+                {
+                    "data": "17.02 cm (6.7 inch) Super Retina XDR Display",
+                    "id": "display"
+                },
+                {
+                    "data": "12MP + 12MP | 12MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "A15 Bionic Chip, 6 Core Processor Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "56,999",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹79,600",
+            "off": "28% off",
+            "free": "Free delivery",
+            "save": "Save extra with combo offers",
+            "exchange": "Upto ₹50,150 Off on Exchange"
+        },
+        {
+            "id": "redmi",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/f/a/-original-imahfk4xp4xcggyt.jpeg?q=70",
+            "compare": "Add to Compare",
+            "heart": "assets/icons/heart.svg",
+            "name": "REDMI 13C (Starfrost White, 128 GB)",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "33,979 Ratings & 1,900 Reviews",
+            "speciality": [
+                {
+                    "data": "4 GB RAM | 128 GB ROM |Expnadable Upto 1 TB",
+                    "id": "rom"
+                },
+                {
+                    "data": "17.12 cm (6.74 inch)HD+ Display",
+                    "id": "display"
+                },
+                {
+                    "data": "50MP Rear Camara | 8MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "Helio G85 Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "7,699",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹11,999",
+            "off": "35% off",
+            "free": "Free delivery",
+            "save": "Save extra with combo offers",
+            "exchange": "Upto ₹6,500 Off on Exchange"
+        },
+        {
+            "id": "motorola",
+            "heart": "assets/icons/heart.svg",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/x/h/g64-5g-pb2e0001in-motorola-original-imagzzd3ecgm2wp5.jpeg?q=70",
+            "compare": "Add to Compare",
+            "name": "Motorola (Mint Green, 128 GB)",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "21,694 Ratings & 1,182 Reviews",
+            "speciality": [
+                {
+                    "data": "8 GB RAM | 128 GB ROM |Expnadable Upto 1 TB",
+                    "id": "rom"
+                },
+                {
+                    "data": "16.51 cm (6.5 inch) Full HD+ Display",
+                    "id": "display"
+                },
+                {
+                    "data": "50MP (OIS) + 8MP | 16MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "Dimensity Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "13,999",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹17,999",
+            "off": "22% off",
+            "free": "Free delivery",
+            "save": "Save extra with combo offers",
+            "exchange": "Upto <span>₹8,700</span> Off on Exchange"
+        },
+        {
+            "id": "iphone",
+            "phone": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+            "compare": "Add to Compare",
+            "heart": "assets/icons/heart.svg",
+            "name": "Apple iPhone 14 (Black, 128 GB)",
+            "data": "4.6",
+            "rateimg": "assets/icons/whitestar.svg",
+            "review": "45,052 Ratings & 2,414 Reviews",
+            "speciality": [
+                {
+                    "data": "128 GB ROM",
+                    "id": "rom"
+                },
+                {
+                    "data": "15.49 cm (6.1 inch) Super Retina XDR Display",
+                    "id": "display"
+
+                },
+                {
+                    "data": "48MP + 12MP | 12MP Front Camara",
+                    "id": "camara"
+                },
+                {
+                    "data": "A16 Bionic Chip, 6 Core Processor Processor",
+                    "id": "processor"
+                },
+                {
+                    "data": "1 Year Warrenty for Phone and 6 Months Warrenty for In-Box Accessories",
+                    "id": "warrenty"
+                }
+            ],
+            "price": "65,499",
+            "asure": "asure",
+            "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
+            "strike": "₹79,600",
+            "off": "17% off",
+            "free": "Free delivery",
+            "save": "Daily Saver",
+            "exchange": "Upto ₹50,150 Off on Exchange"
+        }
+    ],
+    "next": {
+        "prev": {
+            "value": "PREVIOUS",
+            "class": "prev",
+            "url": ""
+        },
+        "last": {
+            "value": "NEXT",
+            "class": "next",
+            "url": ""
+        },
+        "looking": "Did you find you were looking for?",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "footer": {
+        "foot1": [
+            {
+                "name": "ABOUT",
+                "id": "about",
+                "loop": [
+                    "Contact Us",
+                    "About Us",
+                    "Careers",
+                    "Flipkart Stories",
+                    "Press",
+                    "Corporate Information"
+                ]
+            },
+            {
+                "name": "GROUP COMPANIES",
+                "id": "group",
+                "loop": [
+                    "Myntra",
+                    "Cleartrip",
+                    "Shopsy"
+                ]
+            },
+            {
+                "name": "HELP",
+                "id": "help",
+                "loop": [
+                    "Payments",
+                    "Shipping",
+                    "Cancellation & Returns",
+                    "FAQ",
+                    "Report Infrigement"
+                ]
+            },
+            {
+                "name": "CONSUMER POLICY",
+                "id": "policy",
+                "loop": [
+                    " Cancellation & Returns",
+                    "  Terms Of Use",
+                    "  Security",
+                    " Privacy",
+                    " Sitemap",
+                    " Grievance Redressal",
+                    "EPR Compliance"
+                ]
+            },
+            {
+                "name": "Mail Us:",
+                "id": "mail",
+                "loop": [
+                    " Flipkart Internet Private Limited,",
+                    "Buildings Alyssa, Begonia &",
+                    " Clove Embassy Tech Village,",
+                    " Outer Ring Road, Devarabeesanahalli Village,",
+                    "  Bengaluru, 560103,",
+                    "   Karnataka, India"
+                ]
+            },
+            {
+                "name": "Registered Office Address:",
+                "id":        "address",
+                "loop": [
+                    "Flipkart Internet Private Limited,",
+                    " Buildings Alyssa, Begonia &",
+                    " Clove Embassy Tech Village,",
+                    " Outer Ring Road, Devarabeesanahalli Village,",
+                    " Bengaluru, 560103,",
+                    "Karnataka, India",
+                    " CIN : U51109KA2012PTC066107",
+                    " Telephone:<span> 044-45614700</span> / <span>044-67415800</span>"
+                ]
+            }
+        ],
+        "social": "Mail Us:",
+        "loop": [
+            "assets/icons/f.svg",
+            "assets/icons/x.svg",
+            "assets/icons/youtube.svg"
+        ],
+        "bottom": [
+            "<img src=\" assets/icons/bag.svg\"><span>Become a Seller<span>",
+            "<img src=\" assets/icons/star.svg\"><span>Advertise</span>",
+            "<img src=\" assets/icons/gift.svg\"><span>Gift Cards</span>",
+            "<img src=\" assets/icons/question.svg\"><span>Help Center</span>",
+            "@ 2007-2024<span>Flipkart.com</span>",
+            "<img src=\"https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg\">"
+        ]
+    },
+    "notfound":{
+        "img":"https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/error-no-search-results_2353c5.png",
+        "sorry":"Sorry, no results found!",
+        "please":"Please check the spelling or try searching for something else"
+    }
+    
+}
+]
