@@ -36,7 +36,6 @@ export const RightSideSection: React.FC = () => {
                                             <span id={item.id} className={item.class}>
                                                 {item.name}
                                             </span>
-
                                         </React.Fragment>
                                     ))}
 
@@ -50,3 +49,6 @@ export const RightSideSection: React.FC = () => {
         </div>
     )
 }
+
+
+

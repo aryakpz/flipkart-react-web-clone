@@ -2,14 +2,13 @@ import React, { useContext } from 'react';
 
 import './App.css';
 import { ProductProvider, useProductContext } from './components/useContext';
-import { Home } from './components/Home';
 import { NavBar } from './components/NavBar';
 import { DropDown } from './components/dropDownMenu';
 import { LeftSideSection } from './components/leftBodySection';
 import { RightSideSection } from './components/rightBodySection';
+import { FooterSection } from './components/footerSection';
 
 function App() {
-
   return (
     <div className='main'>
       <ProductProvider>
@@ -18,14 +17,14 @@ function App() {
         <div className='bodysec'>
           <div className='subbody'>
             <LeftSideSection />
-            <RightSideSection/>
+            <RightSideSection />
           </div>
         </div>
-        <Home />
+        <footer>
+          <FooterSection />
+        </footer>
       </ProductProvider>
     </div>
-
   );
 }
-
 export default App;

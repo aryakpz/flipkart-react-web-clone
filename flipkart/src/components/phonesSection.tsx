@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import { useProductContext } from "./useContext";
-import { productPropType } from "../Types/type";
+import { phoneProps, productPropType } from "../Types/type";
 
 export const PhoneSection: React.FC = () => {
 
-    const { products } = useProductContext()
-    const [product, setProduct] = useState(products)
+    const { filteredProducts } = useProductContext()
+    
     return (
         <div className="mainphones">
-            {product.length > 0 ? (
-                product.map((item: productPropType, index: number) => (
-                    item.phonesec.map((item, index) => (
+            {filteredProducts.length > 0 ? (
+                filteredProducts.map((item: phoneProps, index: number) => (
+                 
                         <div className="phones">
                             <div className="imagesec">
                                 <div className="phoneimage">
-                                  <img src=  {item.phone}/>
+                                    <img src={item.phone} />
                                 </div>
                                 <div className="add">
                                     <input type="checkbox" value={item.compare} />
@@ -32,7 +32,7 @@ export const PhoneSection: React.FC = () => {
                                     <div className="rate">
                                         <div className="subrate">
                                             <span className="rating">
-                                                {item.data}<img src={item.rateimg}/>
+                                                {item.data}<img src={item.rateimg} />
                                             </span>
                                             <span className="review">
                                                 {item.review}
@@ -74,11 +74,13 @@ export const PhoneSection: React.FC = () => {
                             </div>
 
                         </div>
-                    ))
+                
 
                 ))
             ) :
-                (<p></p>)}
+                (
+                    <h1>No Result Found...</h1>
+                )}
 
         </div>
     )

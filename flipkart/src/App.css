@@ -766,10 +766,6 @@ body {
   transform: rotate(0deg);
 }
 
-.section #hide .bhead img {
-  transform: rotate(180deg);
-}
-
 .section .bhead {
   height: 25px;
 }
