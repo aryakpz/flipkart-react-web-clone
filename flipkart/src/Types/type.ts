@@ -9,7 +9,7 @@ export type productPropType={
     phonesec:phoneProps[];
     footer:footerProps;
     section:sectionProps[];
-
+    notfound:notFoundProps
 }
 
 export type navPropType = {
@@ -67,6 +67,7 @@ export type linkProps={
     class:string;
 }
 export type phoneProps={
+    brand: string;
     id:string;
     phone:string;
     compare:string;
@@ -76,7 +77,7 @@ export type phoneProps={
     rateimg:string;
     review:string;
     speciality:specialityProps[];
-    price:string;
+    price:number;
     asure:string;
     img:string;
     strike:string;
@@ -122,3 +123,20 @@ export type sectionProps={
 }
 
 export type checkboxProps=string;
+
+export type notFoundProps={
+    img:string;
+    sorry:string;
+    please:string;
+}
+
+export type Filters = {
+    searchText: string;
+    selectedBrands: string[];
+    ramfilter: string[];
+    camerafilter: string[];
+    filtered: string[];
+    minPrice: number | null;
+    maxPrice: number | null;
+    [key: string]: any;  
+};

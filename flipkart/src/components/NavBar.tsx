@@ -7,11 +7,13 @@ export const NavBar: React.FC = () => {
     const { products,setFilters } = useProductContext();
 
     
-
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-      setFilters({ searchText: e.target.value }); // Update the searchText in context
+        setFilters((prevFilters) => ({
+            ...prevFilters,
+            searchText: e.target.value, 
+        }));
     };
-  
+    
     
     return (
         <div className="nav" >
@@ -30,7 +32,6 @@ export const NavBar: React.FC = () => {
                         </div>
                         <div className="search">
                             <input className="input"
-                                // value={searTerm}
                                 placeholder="Search for products, brands and more"
                                 onChange={handleSearch} />
                             <img src={item.nav.search} />
@@ -53,6 +54,4 @@ export const NavBar: React.FC = () => {
         </div>
     );
 };
-
-
 

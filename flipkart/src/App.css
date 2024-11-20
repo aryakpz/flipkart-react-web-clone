@@ -1201,12 +1201,33 @@ footer {
 }
 
 .bottom span {
-
   margin-left: 8px;
 }
 
+.notfound-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 
+}
+.sub-notfound{
+  text-align: center;
+  font-family: "regular";
+}
 
+.sorry-section{
+  font-size: 26px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+
+}
+
+.please-section{
+  color: #878787;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
 /* ============================================================================================  */
 
 

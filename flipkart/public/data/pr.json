@@ -1,5 +1,5 @@
-[
-    {
+
+  [  {
         "nav": {
             "fliplogo": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png",
             "explore": "Explore",
@@ -283,7 +283,7 @@
             {
                 "name": "Relevance",
                 "id": "relevence",
-                "class": "active"
+                "class":"nonactive"
             },
             {
                 "name": "Popularity",
@@ -338,7 +338,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "65,499",
+                "price": "65499",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹79,600",
@@ -356,9 +356,10 @@
                 "data": "4.6",
                 "rateimg": "assets/icons/whitestar.svg",
                 "review": "44,931 Ratings & 2,408 Reviews",
+                
                 "speciality": [
                     {
-                        "data": "2 GB ",
+                        "data": "2 GB ROM",
                         "id": "rom"
                     },
                     {
@@ -378,7 +379,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "81,999",
+                "price": "81999",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹89,600",
@@ -398,7 +399,7 @@
                 "review": "77,251 Ratings & 4,327 Reviews",
                 "speciality": [
                     {
-                        "data": "3 GB",
+                        "data": "3 GB ROM",
                         "id": "rom"
                     },
                     {
@@ -418,7 +419,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "56,999",
+                "price": "56999",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹79,600",
@@ -458,7 +459,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "7,699",
+                "price": "7699",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹11,999",
@@ -478,7 +479,7 @@
                 "review": "21,694 Ratings & 1,182 Reviews",
                 "speciality": [
                     {
-                        "data": "8 GB RAM | 128 GB ROM |Expnadable Upto 1 TB",
+                        "data": "8 GB ROM | 128 GB ROM |Expnadable Upto 1 TB",
                         "id": "rom"
                     },
                     {
@@ -498,7 +499,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "13,999",
+                "price": "13999",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹17,999",
@@ -538,7 +539,7 @@
                         "id": "warrenty"
                     }
                 ],
-                "price": "65,499",
+                "price": "15499",
                 "asure": "asure",
                 "img": "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png",
                 "strike": "₹79,600",
